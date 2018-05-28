@@ -155,15 +155,16 @@ header {
     margin-top: -7px;
     background-size: cover;
     height: 500px;
-    background-position: center;
 }
 
 .header-vestergade {
     background-image: url(../images/vestergade-header.jpg);
+    background-position: center;
 }
 
 .header-fredensgade {
     background-image: url(../images/fredensgade-header.jpg);
+    background-position: left;
 }
 
 .logo-header {

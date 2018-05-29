@@ -847,7 +847,8 @@ a {
     /* om os */
     .omos {
         width: 30%;
-        margin-left: 5%
+        margin-left: 5%;
+        min-height: 300px;
     }
 
     /* Reservering */
@@ -886,10 +887,10 @@ a {
         font-size: 60px;
     }
     .partner {
-        width: 20%
+        width: 20%;
     }
     .socialmedia {
-        margin-top: 15%
+        margin-top: 15%;
     }
     .insta,
     .face {

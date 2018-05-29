@@ -460,6 +460,10 @@ table {
     margin-left: 25%;
 }
 
+address a {
+    text-decoration: underline;
+}
+
 .kontrol {
     width: 30%;
     margin: 10px;

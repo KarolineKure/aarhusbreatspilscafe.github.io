@@ -55,7 +55,7 @@ h4 {
     top: 65%;
 }
 
-/*beskrivelse af caféerne*/
+/*beskrivelse af caféerne */
 .vesterp,
 .fredensp {
     font-size: 15px;
@@ -87,6 +87,7 @@ h4 {
 }
 
 /* besøg knapper */
+
 .b-vestergade,
 .b-fredensgade {
     color: white;
@@ -144,6 +145,7 @@ p {
 /* HEADER */
 
 /* baggrundsbillede */
+
 header {
     margin-top: -7px;
     background-size: cover;
@@ -180,7 +182,7 @@ header {
     padding: 0 10px 8px 5px;
 }
 
-/* vestergade */
+/* Vestergade */
 .overskrift {
     font-size: 70px;
     text-decoration: underline;
@@ -339,7 +341,10 @@ header {
 }
 
 .book-beskrivelse {
-    color: white;
+        color: white;
+
+    
+    text-align: center;
 }
 
 /* Vores spil */
@@ -594,7 +599,6 @@ a {
 
     .bord {
         top: 20%;
-        transform: translate(-5%, 5%);
         position: absolute;
         text-align: center;
         width: 100%;
@@ -605,13 +609,13 @@ a {
     .bord h2 {
         font-size: 90px;
     }
-    
+
     .reserver-knap {
         position: absolute;
         left: 50%;
         width: 50%;
         padding: 10px;
-        color: #383b55; 
+        color: #383b55;
     }
     
     .reserver-knap a {
@@ -660,6 +664,7 @@ a {
         display: flex;
         font-size: 15px;
         padding: 3% 0 3% 0;
+
     }
 
     h4 {
@@ -801,7 +806,7 @@ a {
         margin-top: 5.5%;
     }
 
-    /* oversrkifter */
+    /*oversrkift */
     .overskrift, .overskrift2 {
         font-size: 120px;
     }
@@ -826,8 +831,7 @@ a {
     }
 
     .bord p {
-        width: 80%;
-        margin-left: 15%;
+        width: 100%;
         font-size: 20px;
     }
 
@@ -856,7 +860,7 @@ a {
         font-size: 60px;
     }
     
-    /* footer */
+    /*footer*/
     .partner {
         width: 20%;
     }

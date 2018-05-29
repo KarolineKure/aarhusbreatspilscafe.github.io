@@ -890,10 +890,8 @@ a {
         width: 20%;
     }
     .socialmedia {
-        margin-top: 15%;
+        width: 45%;
+        margin-top: 10%;
     }
-    .insta,
-    .face {
-        margin-top: 5%;
-    }
+
 }

@@ -156,6 +156,7 @@ header {
     margin-top: -7px;
     background-size: cover;
     height: 500px;
+    position: relative;
 }
 
 .header-vestergade {
@@ -192,18 +193,20 @@ header {
     font-size: 70px;
     text-decoration: underline;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -85%);
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 1%;
 }
 
 .overskrift2 {
     font-size: 62px;
     text-decoration: underline;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -1%);
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 1%;
 }
 
 /* NAVIGATIONSBAR*/
@@ -585,16 +588,10 @@ a {
         display: none;
     }
 
-    .overskrift {
+    .overskrift, .overskrift2 {
         font-size: 100px;
-        top: 55%;
     }
     
-    .overskrift2 {
-        font-size: 100px;
-        top: 45%;
-    }
-
     /* info cirkler*/
     .fact {
         font-size: 35px;
@@ -836,14 +833,8 @@ a {
     }
 
     /*VESTERGADE oversrkift */
-    .overskrift {
+    .overskrift, .overskrift2 {
         font-size: 120px;
-        top: 55%;
-    }
-    /* overskrift fredensgade */
-    .overskrift2 {
-        font-size: 120px;
-        top: 35%;
     }
 
     /*cirkler */

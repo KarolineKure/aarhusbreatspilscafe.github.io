@@ -35,7 +35,6 @@ h4 {
 }
 
 /* overskrifter */
-
 .vester,
 .fredens {
     font-family: 'lobster', 'cursive';
@@ -56,8 +55,7 @@ h4 {
     top: 65%;
 }
 
-/*beskrivelse */
-
+/*beskrivelse af caféerne*/
 .vesterp,
 .fredensp {
     font-size: 15px;
@@ -79,7 +77,6 @@ h4 {
 }
 
 /* billeder */
-
 .vestergade,
 .fredensgade {
     width: 100%;
@@ -90,7 +87,6 @@ h4 {
 }
 
 /* besøg knapper */
-
 .b-vestergade,
 .b-fredensgade {
     color: white;
@@ -115,14 +111,12 @@ h4 {
 }
 
 /*åbningstider */
-
 .abningstider-vestergade,
 .abningstider-fredensgade {
     display: none;
 }
 
 /* laptop forsidebilleder */
-
 .vestergade-web,
 .fredensgade-web {
     display: none;
@@ -131,7 +125,6 @@ h4 {
 /* CAFÈ STYLING */
 
 /* Global sidestyling */
-
 .vestergade-styling,
 .fredensgade-styling {
     background-color: #ff9900;
@@ -150,8 +143,7 @@ p {
 
 /* HEADER */
 
-/* baggrundsbilled */
-
+/* baggrundsbillede */
 header {
     margin-top: -7px;
     background-size: cover;
@@ -177,7 +169,6 @@ header {
 }
 
 /* besøg den anden café knap */
-
 .b-knap {
     position: absolute;
     color: white;
@@ -189,6 +180,7 @@ header {
     padding: 0 10px 8px 5px;
 }
 
+/* vestergade */
 .overskrift {
     font-size: 70px;
     text-decoration: underline;
@@ -199,6 +191,7 @@ header {
     margin-bottom: 1%;
 }
 
+/* Fredensgade */
 .overskrift2 {
     font-size: 62px;
     text-decoration: underline;
@@ -210,7 +203,6 @@ header {
 }
 
 /* NAVIGATIONSBAR*/
-
 @media (max-width: 767px) {
     .navigation {
         width: 0;
@@ -273,7 +265,6 @@ header {
 }
 
 /* info cirkler */
-
 .info {
     display: flex;
     justify-content: center;
@@ -301,14 +292,12 @@ header {
 }
 
 /* om os section */
-
 .omos {
     text-align: center;
     width: 100%;
 }
 
 /*Reserver bord*/
-
 .bookbord {
     position: relative;
 }
@@ -354,14 +343,12 @@ header {
 }
 
 /* Vores spil */
-
 .vores-spil {
     text-align: center;
     margin-top: 2%;
 }
 
 /* spilgenerator */
-
 .spil {
     width: 40%;
     margin: 10px;
@@ -372,13 +359,11 @@ header {
 }
 
 /* søg spil */
-
 .allespil {
     width: 87%;
 }
 
 /* Menukort */
-
 #toggle,
 #toggle2,
 #toggle3 {
@@ -455,10 +440,7 @@ picture {
     display: none;
 }
 
-/* menukort slut*/
-
 /*Footer */
-
 footer {
     text-align: center;
     color: #383b55;
@@ -496,7 +478,6 @@ a {
 }
 
 /*TABLET*/
-
 @media (min-width: 768px) {
     /*FORSIDE*/
     .vester,
@@ -542,7 +523,6 @@ a {
         max-width: 220px;
     }
     
-    /* FORISDE SLUT */
     /* NAVIGATIONSBAR */
     .luk {
         display: none;
@@ -574,16 +554,11 @@ a {
         right: 20px;
     }
 
-    .overst-vestergade {
-        position: relative;
-        margin-top: 0;
-    }
-
-    /* VESTERGADE */
     /* HEADER */
     header {
         margin-top: -16px;
     }
+    
     .logo-header {
         display: none;
     }
@@ -619,37 +594,32 @@ a {
 
     .bord {
         top: 20%;
-        font-size: 100px;
         transform: translate(-5%, 5%);
         position: absolute;
         text-align: center;
         width: 100%;
+        color: white;
+        width: 80%;
+        margin-left: 15%;
+        font-size: 25px;
     }
 
     .bord h2 {
         font-size: 90px;
     }
-
-    .bord {
-        color: white;
-        width: 80%;
-        margin-left: 15%;
-        font-size: 25px;
-
-    }
-
+    
     .reserver-knap {
         position: absolute;
         left: 50%;
         width: 50%;
         padding: 10px;
-        color: #383b55;
-        
+        color: #383b55; 
     }
     
     .reserver-knap a {
         font-size: 40px;
     }
+    
     .reserver-regler {
         color: #383b55;
     }
@@ -664,6 +634,7 @@ a {
         margin-left: 15%;
         margin-bottom: 5%;
     }
+    
     .allespil {
         width: 83%;
     }
@@ -691,7 +662,6 @@ a {
         display: flex;
         font-size: 15px;
         padding: 3% 0 3% 0;
-
     }
 
     h4 {
@@ -705,6 +675,7 @@ a {
     .kontrol {
         width: 30%;
     }
+    
     .partner {
         display: flex;
     }
@@ -729,7 +700,6 @@ a {
 }
 
 /*LAPTOP*/
-
 @media (min-width: 1024px) {
     .vestergade,
     .fredensgade {
@@ -809,6 +779,7 @@ a {
         top: 58%;
         transform: translate(-50%, -50%);
     }
+    
     .abningstider-vestergade {
         left: 17%;
     }
@@ -832,7 +803,7 @@ a {
         margin-top: 5.5%;
     }
 
-    /*VESTERGADE oversrkift */
+    /* oversrkifter */
     .overskrift, .overskrift2 {
         font-size: 120px;
     }
@@ -886,6 +857,8 @@ a {
     .menuen {
         font-size: 60px;
     }
+    
+    /* footer */
     .partner {
         width: 20%;
     }

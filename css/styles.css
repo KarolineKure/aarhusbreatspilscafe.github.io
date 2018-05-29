@@ -311,7 +311,7 @@ header {
 
 .bord {
     top: 2%;
-    transform: translate (5%, 4%);
+    transform: translate(5%, 4%);
     position: absolute;
     text-align: center;
     width: 100%;

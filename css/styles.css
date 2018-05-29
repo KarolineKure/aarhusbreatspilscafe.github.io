@@ -101,8 +101,9 @@ h4 {
     max-width: 40%;
     position: absolute;
     text-align: center;
-    left: 25%;
-    right: 25%;
+    left: 30%;
+    right: 30%;
+    font-size: 14px;
 }
 
 .b-vestergade {
@@ -502,7 +503,7 @@ a {
 
     .vesterp,
     .fredensp {
-        font-size: 30px;
+        font-size: 26px;
         left: 5%;
         right: 5%;
         text-align: center;
@@ -520,7 +521,7 @@ a {
     .b-fredensgade {
         text-align: center;
         left: 30%;
-        font-size: 38px;
+        font-size: 36px;
     }
 
     .b-vestergade {
@@ -530,6 +531,14 @@ a {
     .b-fredensgade {
         top: 87%;
     }
+    
+    .logo-forside {
+        position: absolute;
+        top: 39%;
+        max-height: 220px;
+        max-width: 220px;
+    }
+    
     /* FORISDE SLUT */
     /* NAVIGATIONSBAR */
     .luk {
@@ -748,6 +757,8 @@ a {
     .logo-forside {
         width: 20%;
         left: 40%;
+        max-width: none;
+        max-height: none;
     }
 
     .vester,

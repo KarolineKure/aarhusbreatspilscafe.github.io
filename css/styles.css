@@ -590,16 +590,8 @@ a {
     }
 
     /* Book bord */
-    .book {
-        width: 100%;
-        text-align: center;
-    }
-
     .bord {
-        top: 20%;
-        position: absolute;
-        text-align: center;
-        width: 100%;
+        top: 10%;
         color: white;
     }
 
@@ -616,8 +608,7 @@ a {
     }
     
     .bord p {
-    width: 100%;
-    font-size: 18px;
+    font-size: 22px;
 }
 
     /*spilibliotek*/
@@ -825,8 +816,7 @@ a {
     }
 
     .bord p {
-        width: 100%;
-        font-size: 20px;
+        font-size: 25px;
     }
     
     /*SPILBIBLIOTEK*/

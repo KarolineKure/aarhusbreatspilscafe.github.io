@@ -666,7 +666,7 @@ a {
     }
 
     .abningstider {
-        width: 100%;
+        min-width: 30%;
     }
 
     .kontrol {

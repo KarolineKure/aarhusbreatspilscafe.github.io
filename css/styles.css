@@ -322,7 +322,7 @@ header {
 
 .bord p {
     width: 100%;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .reserver-knap {
@@ -335,14 +335,12 @@ header {
 
 .reserver-knap > a {
     text-decoration: underline;
-    font-size: 17px;
+    font-size: 22px;
 }
 
-.book-beskrivelse {
+.book-beskrivelse{
         color: white;
-
-    
-    text-align: center;
+        text-align: center;
 }
 
 /* Vores spil */
@@ -458,9 +456,6 @@ table {
     margin-left: 25%;
 }
 
-address a {
-    text-decoration: underline;
-}
 
 .kontrol {
     width: 30%;
@@ -469,6 +464,7 @@ address a {
 
 a {
     color: #383b55;
+    text-decoration: underline;
 }
 
 .socialmedia {
@@ -605,7 +601,6 @@ a {
         text-align: center;
         width: 100%;
         color: white;
-        font-size: 25px;
     }
 
     .bord h2 {
@@ -615,10 +610,15 @@ a {
     .reserver-knap a {
         font-size: 40px;
     }
-    
+        
     .reserver-regler {
         color: #383b55;
     }
+    
+    .bord p {
+    width: 100%;
+    font-size: 18px;
+}
 
     /*spilibliotek*/
     .vores-spil {
@@ -858,5 +858,4 @@ a {
         width: 45%;
         margin-top: 10%;
     }
-
 }
